@@ -1,0 +1,12 @@
+{% load static %}
+
+{# COMMENT: css/output.css comes from the tailwind output #}
+<link rel="stylesheet" href="{% static 'css\dist\output.css' %}" />
+
+
+<link rel="shortcut icon" href="{% static 'imgs\_b6d60d51-22df-46ef-83ad-1b243e3035fa.jpg' %}" >
+
+{# COMMENT: vendor_css_files comes from cfehome.context_processors.vendor_files #}
+{% for css_file in vendor_css_files %}
+<link rel="stylesheet" href="{% static css_file %}">
+{% endfor %}
