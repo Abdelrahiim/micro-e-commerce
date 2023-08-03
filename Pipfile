@@ -9,6 +9,8 @@ python-dotenv = "*"
 psycopg2 = "*"
 dj-database-url="*"
 python-decouple="*"
+nanoid = "*"
+pillow = "*"
 
 [dev-packages]
 

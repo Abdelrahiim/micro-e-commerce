@@ -103,6 +103,8 @@ celerybeat-schedule.*
 env/ 
 venv/ 
 node_modules/
+migrations/
+protected/
 package-lock.json
 ENV/ 
 env.bak/ 

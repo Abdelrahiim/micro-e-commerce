@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Create Product{% endblock title %}
+
+{% block body %}
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{form.as_div}}
+    <button type="submit" class="btn-submit">Submit</button>
+
+</form>
+{% endblock body %}
